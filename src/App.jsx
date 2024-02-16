@@ -5,6 +5,7 @@ import Footer from "./components/homePage/Footer";
 import Navbar from "./components/homePage/Navbar";
 import Navitems from "./components/homePage/Navitems";
 import Home from "./pages/Home";
+import DogPage from "./pages/DogPage";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/community" element={<CommunityHero />} />
           <Route path="/customer-love" element={<PageCustomerLove />} />
+          <Route path="/dog-products" element={<DogPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

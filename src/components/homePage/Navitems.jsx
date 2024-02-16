@@ -35,7 +35,7 @@ const Navitems = () => {
           <span className="pt-1">{<GiHotMeal />}</span>
         </div>
       </nav>
-      <div className="w-full bg-black text-white font-normal my-2 text-center py-1">
+      <div className="w-full bg-black text-white font-normal mt-2 text-center py-1">
         Flat 20% OFF on Royal Canin | Shop Now
       </div>
     </div>
