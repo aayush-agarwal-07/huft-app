@@ -2,7 +2,7 @@ import React from "react";
 import { GiHotMeal } from "react-icons/gi";
 import { NavigationBrands } from "./Brands";
 import { NavigationCat } from "./Cats";
-import { NavigationMenuDemo } from "./Dogs";
+import { NavigationDogs } from "./Dogs";
 import { NavigationShop } from "./Shop";
 import { NavigationSmallAnimal } from "./SmallAnimals";
 
@@ -10,7 +10,7 @@ const Navitems = () => {
   return (
     <div>
       <nav className="w-full flex justify-between items-center px-20 py-2 navbar gap-4 font-semibold text-black">
-        <NavigationMenuDemo />
+        <NavigationDogs />
         <NavigationCat />
         <NavigationSmallAnimal />
         <NavigationBrands />

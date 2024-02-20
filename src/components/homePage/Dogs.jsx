@@ -1,7 +1,7 @@
 import * as React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
-export function NavigationMenuDemo() {
+export function NavigationDogs() {
   const [isHovered, setIsHovered] = React.useState(false);
 
   const handleMouseEnter = () => {
