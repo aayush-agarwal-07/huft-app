@@ -4,8 +4,8 @@ import PageCustomerLove from "./components/customerLove/PageCustomerLove";
 import Footer from "./components/homePage/Footer";
 import Navbar from "./components/homePage/Navbar";
 import Navitems from "./components/homePage/Navitems";
-import Home from "./pages/Home";
 import DogProducts from "./pages/DogProducts";
+import Home from "./pages/Home";
 
 const App = () => {
   return (

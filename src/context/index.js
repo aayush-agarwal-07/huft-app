@@ -1,53 +1,38 @@
-// import { IoIosArrowDown } from "react-icons/io";
-// import { GiHotMeal } from "react-icons/gi";
-// import { IoCallOutline } from "react-icons/io5";
-// import { MdSupervisorAccount, MdOutlineShoppingCart } from "react-icons/md";
-
-
 export const navLinks = [
   {
     id: "support",
     title: "Support",
-    // icon: { IoCallOutline },
   },
   {
     id: "account",
     title: "Account",
-    // icon: { MdSupervisorAccount },
   },
   {
     id: "cart",
     title: "Cart",
-    // icon: { MdOutlineShoppingCart },
   },
-  
 ];
 
 export const navItemLinks = [
   {
     id: "dogs",
     title: "DOGS",
-    // icons: { IoIosArrowDown },
   },
   {
     id: "cats",
     title: "CATS",
-    // icon: { IoIosArrowDown },
   },
   {
     id: "smallAninamls",
     title: "SMALL ANIMALS",
-    // icon: { IoIosArrowDown },
   },
   {
     id: "brands",
     title: "BRANDS",
-    // icon: { IoIosArrowDown },
   },
   {
     id: "shopByLifestyle",
     title: "SHOP BY LIFESTYLE",
-    // icon: { IoIosArrowDown },
   },
   {
     id: "learnWithHuft",
@@ -64,229 +49,228 @@ export const navItemLinks = [
   {
     id: "freshMeals",
     title: "FRESH MEALS",
-    // icons: { GiHotMeal }, 
   },
 ];
 
 export const saraFood = [
   {
-    id:"one",
-    title:"Chicken & Brown Rice",
+    id: "one",
+    title: "Chicken & Brown Rice",
     price: "99/-",
-    image: src/assets/sara/chicken_brown_rice_sara.png,
+    image: "src/assets/sara/chicken_brown_rice_sara.png",
   },
   {
-    id:"two",
-    title:"Chicken & Turkey",
+    id: "two",
+    title: "Chicken & Turkey",
     price: "125/-",
-    image: src/assets/sara/chicken_turkey_sara.png,
+    image: "https://headsupfortails.com/cdn/shop/files/chicken_turkey_8695c15d-2034-4020-ab2c-cb3c7441c595.png?v=1699361671",
   },
   {
-    id:"three",
-    title:"Lamp & Apple",
+    id: "three",
+    title: "Lamb & Apple",
     price: "125/-",
-    image:src/assets/sara/lamb_apple_sara.png,
+    image: "src/assets/sara/lamb_apple_sara.png",
   },
   {
-    id:"four",
-    title:"Paneer & Eggs",
+    id: "four",
+    title: "Paneer & Eggs",
     price: "99/-",
-    image: src/assets/sara/paneer_eggs_sara.png,
-  }
-]
+    image: "src/assets/sara/paneer_eggs_sara.png",
+  },
+];
 
 export const top_Brands = [
   {
-    id:"one",
-    title:"Sara's Treats",
+    id: "one",
+    title: "Sara's Treats",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/allDayMuseli.png,
+    image: "src/assets/topBrands/allDayMuseli.png",
   },
   {
-    id:"two",
-    title:"Happi Doggy",
+    id: "two",
+    title: "Happi Doggy",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/berryBites.png,
+    image: "src/assets/topBrands/berryBites.png",
   },
   {
-    id:"three",
-    title:"Berry Bites",
+    id: "three",
+    title: "Berry Bites",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/canineCraving.png,
+    image: "src/assets/topBrands/canineCraving.png",
   },
   {
-    id:"four",
-    title:"Yakies & Puff Bites",
+    id: "four",
+    title: "Yakies & Puff Bites",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/chip_chops.png,
+    image: "src/assets/topBrands/chip_chops.png",
   },
   {
-    id:"five",
-    title:"Chip Chops",
+    id: "five",
+    title: "Chip Chops",
     content: "Flat 10% Off",
-    image: src/assets/topBrands/dogaholic.png,
+    image: "src/assets/topBrands/dogaholic.png",
   },
   {
-    id:"six",
-    title:"Nutri Treats",
+    id: "six",
+    title: "Nutri Treats",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/gnawlers.png,
+    image: "src/assets/topBrands/gnawlers.png",
   },
   {
-    id:"seven",
-    title:"Yum Nums",
+    id: "seven",
+    title: "Yum Nums",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/goatMilkCookies.png,
+    image: "src/assets/topBrands/goatMilkCookies.png",
   },
   {
-    id:"eight",
-    title:"Canine Craving",
+    id: "eight",
+    title: "Canine Craving",
     content: "Flat 10% Off",
-    image: src/assets/topBrands/happiDoggy.png,
+    image: "src/assets/topBrands/happiDoggy.png",
   },
   {
-    id:"nine",
-    title:"Goat Milk Cookies",
+    id: "nine",
+    title: "Goat Milk Cookies",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/huftCattreats.png,
+    image: "src/assets/topBrands/huftCattreats.png",
   },
   {
-    id:"ten",
-    title:"Jammies",
+    id: "ten",
+    title: "Jammies",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/jammies.png,
+    image: "src/assets/topBrands/jammies.png",
   },
   {
-    id:"eleven",
-    title:"JerHigh",
+    id: "eleven",
+    title: "JerHigh",
     content: "Flat 10% Off",
-    image: src/assets/topBrands/jerHigh.png,
+    image: "src/assets/topBrands/jerHigh.png",
   },
   {
-    id:"twelve",
-    title:"YIMT Cookies",
+    id: "twelve",
+    title: "YIMT Cookies",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/nutri_treats.png,
+    image: "src/assets/topBrands/nutri_treats.png",
   },
   {
-    id:"thirteen",
-    title:"HUFT Cat Treats",
+    id: "thirteen",
+    title: "HUFT Cat Treats",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/pedigree.png,
+    image: "src/assets/topBrands/pedigree.png",
   },
   {
-    id:"fouteen",
-    title:"Temptations",
+    id: "fouteen",
+    title: "Temptations",
     content: "Up to 14% Off",
-    image: src/assets/topBrands/saraTreats.png,
+    image: "src/assets/topBrands/saraTreats.png",
   },
   {
-    id:"fifteen",
-    title:"Gnawlers",
+    id: "fifteen",
+    title: "Gnawlers",
     content: "Flat 10% Off",
-    image: src/assets/topBrands/tempetations.png,
+    image: "src/assets/topBrands/tempetations.png",
   },
   {
-    id:"sixteen",
-    title:"Pedigree",
+    id: "sixteen",
+    title: "Pedigree",
     content: "Up to 9% Off",
-    image: src/assets/topBrands/yumNums.png,
+    image: "src/assets/topBrands/yumNums.png",
   },
   {
-    id:"Seventeen",
-    title:"All Day Muesli",
+    id: "Seventeen",
+    title: "All Day Muesli",
     content: "Buy 4, Get 5th Free",
-    image: src/assets/topBrands/yakies&PuffBites.png,
+    image: "src/assets/topBrands/yakiesPuffBites.png",
   },
   {
-    id:"Eighteen",
-    title:"Dogaholic",
+    id: "Eighteen",
+    title: "Dogaholic",
     content: "Flat 10% Off",
-    image: src/assets/topBrands/yimtCookies.png,
+    image: "src/assets/topBrands/yimtCookies.png",
   },
-]
+];
 
 export const categories = [
   {
-    id:"one",
-    title:"Dog Food",
-    image: src/assets/Categories/dogFood.png,
+    id: "one",
+    title: "Dog Food",
+    image: "src/assets/Categories/dogFood.png",
   },
   {
-    id:"two",
-    title:"Dog Treats",
-    image: src/assets/Categories/dogTreats.png,
+    id: "two",
+    title: "Dog Treats",
+    image: "src/assets/Categories/dogTreats.png",
   },
   {
-    id:"three",
-    title:"T-Shirts",
-    image: src/assets/Categories/t-shirts.png,
+    id: "three",
+    title: "T-Shirts",
+    image: "src/assets/Categories/t-shirts.png",
   },
   {
-    id:"four",
-    title:"Cat Food",
-    image: src/assets/Categories/catFood.png,
+    id: "four",
+    title: "Cat Food",
+    image: "src/assets/Categories/catFood.png",
   },
   {
-    id:"five",
-    title:"Cat Treats",
-    image: src/assets/Categories/catTreats.png,
+    id: "five",
+    title: "Cat Treats",
+    image: "src/assets/Categories/catTreats.png",
   },
   {
-    id:"six",
-    title:"Cat Litter",
-    image: src/assets/Categories/catLitter.png,
+    id: "six",
+    title: "Cat Litter",
+    image: "src/assets/Categories/catLitter.png",
   },
   {
-    id:"seven",
-    title:"Beds & Mats",
-    image: src/assets/Categories/beds&Mats.png,
+    id: "seven",
+    title: "Beds & Mats",
+    image: "src/assets/Categories/bats.png",
   },
   {
-    id:"eight",
-    title:"Harness",
-    image: src/assets/Categories/harnesses.png,
+    id: "eight",
+    title: "Harness",
+    image: "src/assets/Categories/harnesses.png",
   },
   {
-    id:"nine",
-    title:"Bowls & Diners",
-    image: src/assets/Categories/bowls&Diners.png,
+    id: "nine",
+    title: "Bowls & Diners",
+    image: "src/assets/Categories/bowlsDiners.png",
   },
   {
-    id:"ten",
-    title:"Grooming",
-    image: src/assets/Categories/grooming.png,
+    id: "ten",
+    title: "Grooming",
+    image: "src/assets/Categories/grooming.png",
   },
   {
-    id:"eleven",
-    title:"Toys",
-    image: src/assets/Categories/toys.png,
+    id: "eleven",
+    title: "Toys",
+    image: "src/assets/Categories/toys.png",
   },
   {
-    id:"twelve",
-    title:"Supplements",
-    image: src/assets/Categories/supplemnets.png,
+    id: "twelve",
+    title: "Supplements",
+    image: "src/assets/Categories/supplemnets.png",
   },
-]
+];
 
 export const specialPrice = [
   {
-    id:"one",
+    id: "one",
     title: "99",
   },
   {
-    id:"two",
+    id: "two",
     title: "299",
   },
   {
-    id:"three",
+    id: "three",
     title: "499",
   },
   {
-    id:"four",
+    id: "four",
     title: "599",
   },
-]
+];
 
 export const footerLinks = [
   {
@@ -372,7 +356,7 @@ export const footerLinks = [
       },
     ],
   },
-   {
+  {
     title: "EXPLORE",
     links: [
       {
@@ -411,26 +395,25 @@ export const footerLinks = [
         name: "Community",
         link: "https://headsupfortails.com/pages/huft-community",
       },
-      
     ],
   },
 ];
 
-export const newIn_Store =[
+export const newIn_Store = [
   {
-    id:"1",
-    image: src/assets/newInStore/bone_broth_new_in_store.png,
+    id: "1",
+    image: "src/assets/newInStore/bone_broth_new_in_store.png",
   },
   {
-    id:"2",
-    image: src/assets/newInStore/bowls_new_in_store.png,
+    id: "2",
+    image: "src/assets/newInStore/bowls_new_in_store.png",
   },
   {
-    id:"3",
-    image: src/assets/newInStore/floor_cleaner_new_in_store.png,
+    id: "3",
+    image: "src/assets/newInStore/floor_cleaner_new_in_store.png",
   },
   {
-    id:"4",
-    image: src/assets/newInStore/perfume_new_in_store.png,
+    id: "4",
+    image: "src/assets/newInStore/perfume_new_in_store.png",
   },
-]
+];
