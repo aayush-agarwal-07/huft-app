@@ -5,7 +5,7 @@ import { VscAccount } from "react-icons/vsc";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white w-full flex flex-between items-center px-10 py-2 gap-10">
+    <nav className="bg-white w-full h-18 flex flex-between items-center px-10 py-2 gap-10">
       <img src="src/assets/logo_new.png" alt="logo" className="w-[240px]" />
       <input
         type="text"

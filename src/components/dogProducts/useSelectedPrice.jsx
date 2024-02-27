@@ -50,9 +50,11 @@ const PriceCalculatorApp = ({ productId }) => {
   // Get the price based on the selected variant or the first variant if only one is available
   const getPrice = () => {
     if (selectedVariant) {
-      return (selectedVariant.price / 100).toFixed(2);
+      const price = selectedVariant.price / 100;
+      return price % 1 === 0 ? price.toFixed(0) : price.toFixed(2);
     } else if (variants.length === 1) {
-      return (variants[0].price / 100).toFixed(2);
+      const price = variants[0].price / 100;
+      return price % 1 === 0 ? price.toFixed(0) : price.toFixed(2);
     } else {
       return "0.00";
     }
@@ -66,7 +68,7 @@ const PriceCalculatorApp = ({ productId }) => {
         </span>
         <span className="text-2xl font-semibold">{getPrice()}</span>
       </p>
-      {weightOptions.length > 1 && (
+      {weightOptions.length > 1 ? (
         <div className="flex flex-wrap mx-2 gap-2 my-2">
           {weightOptions.map((option) => (
             <button
@@ -82,8 +84,10 @@ const PriceCalculatorApp = ({ productId }) => {
             </button>
           ))}
         </div>
+      ) : (
+        <div className="h-[40px]"></div>
       )}
-      {packOptions.length > 1 && (
+      {packOptions.length > 1 ? (
         <div className="flex flex-wrap mx-2 gap-2 my-2">
           {packOptions.map((option) => (
             <button
@@ -99,6 +103,8 @@ const PriceCalculatorApp = ({ productId }) => {
             </button>
           ))}
         </div>
+      ) : (
+        <div className="h-[40px]"></div>
       )}
     </>
   );

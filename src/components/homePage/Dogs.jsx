@@ -43,7 +43,7 @@ export function NavigationDogs() {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="src/assets/Categories/beds&Mats.png"
+                  src="src/assets/Categories/bats.png"
                   className="w-[150px]"
                 />
                 <div className="text-xl font-normal py-2 text-center">Bedding & Mats</div>

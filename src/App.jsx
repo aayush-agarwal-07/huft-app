@@ -6,6 +6,7 @@ import Navbar from "./components/homePage/Navbar";
 import Navitems from "./components/homePage/Navitems";
 import DogProducts from "./pages/DogProducts";
 import Home from "./pages/Home";
+import DogCategory from "./pages/DogCategory";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/community" element={<CommunityHero />} />
           <Route path="/customer-love" element={<PageCustomerLove />} />
           <Route path="/dog-products" element={<DogProducts />} />
+          <Route path="/dog-products/:dynamic" element={<DogCategory />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -3,7 +3,7 @@ import { saraFood } from "/src/context";
 
 const Sara = () => {
   return (
-    <section className="flex flex-col mx-8">
+    <section className="flex flex-col mx-8 ">
       <div className="text-2xl my-5 font-semibold">
         🐶 Try Sara's Wholesome Food
       </div>

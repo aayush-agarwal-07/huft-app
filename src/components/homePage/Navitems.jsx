@@ -9,7 +9,7 @@ import { NavigationSmallAnimal } from "./SmallAnimals";
 const Navitems = () => {
   return (
     <div>
-      <nav className="w-full flex justify-between items-center px-20 py-2 navbar gap-4 font-semibold text-black">
+      <nav className="w-full h-[40px] flex justify-between items-center px-20 py-2 navbar gap-4 font-semibold text-black">
         <NavigationDogs />
         <NavigationCat />
         <NavigationSmallAnimal />
