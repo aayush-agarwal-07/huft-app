@@ -3,10 +3,19 @@ import { CiStar } from "react-icons/ci";
 import { useParams } from "react-router-dom";
 import { dogProducts } from "../api/dogs";
 import PriceCalculatorApp from "../components/dogProducts/useSelectedPrice";
+import {Link} from 'react-router-dom'
+
+// import {useDispatch} from 'react-redux';
+// import {addProduct} from '../utils/cartSlice.js';
 
 const DogCategory = () => {
   const { dynamic } = useParams();
   const [filteredProducts, setFilteredProducts] = useState([]);
+
+  // const dispatch = useDispatch();
+  // function ProductDispatch(){
+  //   dispatch(addProduct())
+  // }
 
   // Define filter functions for each category
   const filters = {
@@ -56,11 +65,12 @@ const DogCategory = () => {
               </div>
               <div className="pt-1 mr-2">5.0/5.0</div>
             </div>
-            <div className="text-lg font-normal mx-2">{product.title}</div>
+           <Link to={`./dog/${product.id}`}> <div className="text-lg font-normal mx-2">{product.title}</div></Link>
             <div>
               <PriceCalculatorApp productId={product.id} />
             </div>
             <button className="absolute bg-orange-600 text-xl font-normal rounded-2xl m-2 px-[114px] py-2 text-white">
+
               Add To Cart
             </button>
           </div>

@@ -33,7 +33,7 @@ const ProductSection = ({data}) => {
     const dispatch = useDispatch();
 
     const handleAddItem = (data,addItem,selectedWeight,selectedPack,RunningPrice)=>{
-      // console.log(data);
+      // console.log(addItem);
       dispatch(addProduct([data,addItem,selectedWeight,selectedPack,RunningPrice]))
     }
 

@@ -36,7 +36,7 @@ const Box = () => {
                 </div>
                 <div className="pt-1 mr-2">5.0/5.0</div>
               </div>
-              <Link >
+              <Link to={`../dog/${product.id}`} >
               <div className="text-lg font-normal mx-2">
                 {product.title.length >= 72
                   ? `${product.title.substring(0, 70)}...`
