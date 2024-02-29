@@ -14,6 +14,7 @@ const Home = () => {
       <Trendingcategories />
       <Catsection />
       <Huftsection />
+
     </div>
   );
 };

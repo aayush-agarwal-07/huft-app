@@ -2,6 +2,7 @@ import React from "react";
 import { CiStar } from "react-icons/ci";
 import { dogProducts } from "../../api/dogs";
 import PriceCalculatorApp from "./useSelectedPrice";
+import {Link} from 'react-router-dom';
 
 const Box = () => {
   return (
@@ -35,11 +36,13 @@ const Box = () => {
                 </div>
                 <div className="pt-1 mr-2">5.0/5.0</div>
               </div>
+              <Link >
               <div className="text-lg font-normal mx-2">
                 {product.title.length >= 72
                   ? `${product.title.substring(0, 70)}...`
                   : `${product.title}${" ".repeat(10)}`}
               </div>
+              </Link>
 
               <div>
                 <PriceCalculatorApp productId={product.id} />

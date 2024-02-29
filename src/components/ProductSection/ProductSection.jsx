@@ -1,10 +1,8 @@
-import mainImg from './MainImg.jpg'
+// import mainImg from './MainImg.jpg'
 import {useState,useEffect} from 'react';
-import img1 from './prodImg-2.jpg';
-import img2 from './prodImg-3.jpg';
-// import img3 from './nike-3.jpg';
+
 import ProductReviews from "./ProductReviews.jsx"
-import {dogProducts} from './index.js';
+import {dogProducts} from '../../api/dogs/index.js';
 
 import {addProduct} from '../../utils/cartSlice.js';
 import {useDispatch} from 'react-redux';
